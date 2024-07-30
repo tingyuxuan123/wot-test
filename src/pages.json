@@ -1,0 +1,69 @@
+{
+  "pages": [{
+      "path": "pages/home/Home",
+      "name": "home",
+      "style": {
+        "mp-alipay": {
+          "allowsBounceVertical": "NO"
+        },
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/goods/category/index",
+      "name": "category",
+      "style": {
+        "mp-alipay": {
+          "allowsBounceVertical": "NO"
+        },
+        "navigationBarTitleText": "分类"
+      }
+    },
+    {
+      "path": "pages/usercenter/index",
+      "name": "usercenter",
+      "style": {
+        "mp-alipay": {
+          "allowsBounceVertical": "NO"
+        },
+        "navigationBarTitleText": "个人中心",
+        "navigationStyle": "custom",
+        "backgroundColor": "#F5F5F5"
+      }
+    },
+    {
+      "path": "pages/cart/index",
+      "name": "cart",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#E7F0FF"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#bfbfbf",
+    "custom": true,
+    "height": "0",
+    "selectedColor": "#0165FF",
+    "list": [{
+        "pagePath": "pages/home/Home"
+      },
+      {
+        "pagePath": "pages/goods/category/index"
+      },
+      {
+        "pagePath": "pages/cart/index"
+      },
+      {
+        "pagePath": "pages/usercenter/index"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFF"
+    // "rpxCalcMaxDeviceWidth": 1024, // rpx 计算所支持的最大设备宽度，单位 px，默认值为 960
+    // "rpxCalcBaseDeviceWidth": 375, // rpx 计算使用的基准设备宽度，设备实际宽度超出 rpx 计算所支持的最大设备宽度时将按基准宽度计算，单位 px，默认值为 375
+    // "rpxCalcIncludeWidth": 750 // rpx 计算特殊处理的值，始终按实际的设备宽度计算，单位 rpx，默认值为 750
+  }
+}
