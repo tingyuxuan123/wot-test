@@ -13,5 +13,8 @@ declare module '@vue/runtime-core' {
     WdForm: typeof import('wot-design-uni/components/wd-form/wd-form.vue')['default']
     WdIcon: typeof import('wot-design-uni/components/wd-icon/wd-icon.vue')['default']
     WdInput: typeof import('wot-design-uni/components/wd-input/wd-input.vue')['default']
+    WdSortButton: typeof import('wot-design-uni/components/wd-sort-button/wd-sort-button.vue')['default']
+    WdTable: typeof import('wot-design-uni/components/wd-table/wd-table.vue')['default']
+    WdTableCol: typeof import('wot-design-uni/components/wd-table-col/wd-table-col.vue')['default']
   }
 }
